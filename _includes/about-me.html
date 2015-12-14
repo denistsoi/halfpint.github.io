@@ -1,0 +1,8 @@
+<div class="about-me">
+  <p>- Find me on</p>
+  <ul class="socials">
+    {% for social in site.socials %} 
+      <li><a class="social-link" target="_blank" href="http://{{ social.network }}.com/{{ social.username }}">{{ social.network }}</a></li>
+    {% endfor %}
+  </ul>
+</div>

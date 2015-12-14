@@ -1,0 +1,32 @@
+---
+layout: post
+title: Makible 
+modified:
+categories: 
+description: 
+tags: []
+excerpt: 
+  <h3>Web Application for 3D Printer</h3>
+  <p></p>
+datefrom: 2014-01-20T10:00:00+08:00
+dateto:   2014-05-08T10:00:00+08:00
+
+---
+
+### 3D Printing based startup
+
+As a hobbyist maker, I was already fascinated with 3D printing before I even started as a developer.
+When I was let go from Imagination; instead of waking up on the following week with a sense of failure, 
+I asked a good friend from Makible to allow me to continue my progression as a programmer under Makible.
+
+Unfortunately, like with many startups, this was a precursor to understanding how fragile a company can easily fall apart, despite the best of intentions.
+
+<figure>
+  <img src="/" alt="">
+  <figcaption></figcaption>
+</figure>
+
+
+
+#### Takeaways
+

@@ -1,0 +1,28 @@
+---
+layout: default
+---
+{% include header.html %}
+
+<div class="page-content">
+  <div class="wrapper">
+    <div class="home">
+      {% include about-me.html %}
+
+      <ul class="post-list">
+        {% for post in site.posts %}
+          <li>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+              {% if post.datefrom %}
+                <span class="post-meta">{{ post.datefrom | date: "%b %-d, %Y" }} - {{ post.dateto | date: "%b %-d, %Y" }}</span>
+              {% else %} 
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+              {% endif %}  
+              <h2>{{ post.title }}</h2>
+              <div>{{ post.excerpt }}</div>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

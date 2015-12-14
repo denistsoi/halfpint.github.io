@@ -1,0 +1,35 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Denis Tsoi
+email: #your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Denis Tsoi is a Web Developer and Poet based in Hong Kong.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+socials: 
+- network: twitter
+  username: '@denistsoi'
+- network: github
+  username: denistsoi
+- network: stackoverflow
+  username: 'users/2903169/denis-tsoi'
+- network: linkedin
+  username: 'in/denis-tsoi-70635626'
+- network: medium
+  username: '@denistsoi'
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  entity_output: as_char
+
+# Collections
+permalink: none

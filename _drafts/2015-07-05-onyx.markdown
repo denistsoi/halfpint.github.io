@@ -1,0 +1,21 @@
+---
+layout: post
+title: Onyxchat 
+modified:
+categories: 
+description: 
+tags: []
+excerpt: 
+  <h3>Slack-based chatbot with financial information and news features</h3>
+datefrom: 2015-07-05T10:00:00+08:00
+dateto: "Present"
+
+---
+
+
+<figure>
+  <img src="/" alt="">
+  <figcaption></figcaption>
+</figure>
+
+
