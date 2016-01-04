@@ -24,10 +24,7 @@ if (process.env.PUSH) {
       });
     }
   });
-} 
-
-// dev environment 
-if (!process.env.PUSH) {
+} else {
   express()
     .use(quesadilla(__dirname + '/_scss'))
     .use(express.static(__dirname))

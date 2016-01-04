@@ -10,7 +10,24 @@ Also - by structuring the respository in the current, allows me to utilise githu
 
 I can also figure out how to move _posts into respective /project/work/talk folder, within my dev process - idk - still thinking about this right now.
 
+### Directory structure
 
+```
+denistsoi.github.io
+  /_drafts        // temporary place to store markdown for draft posts
+  /_scss          // where scss files are stored
+  /css            // where css is saved when running npm run push
+  /img
+  /node_modules
+  /projects       // posts related to projects
+  /talks          // posts related to talks
+  /work-history   // posts related to work-history
+  .gitignore
+  index.html    
+  index.js        // Entry point for running static express server and writing css files 
+  package.json
+  README.md
+```
 
 ### Getting started
 
@@ -21,12 +38,18 @@ npm install
 npm start
 ```
 
+
+### Changing Styles
+
+This project uses `.scss` or `sass` as a means to preprocess CSS files, with the aid of [seedalpha/quesadilla](http://www.github.com/seedalpha/quesadilla).
+
+
 ### Publishing style changes
-// will fix this in either pre-commit or within build process
 
 ```
 npm run push
 ```
+
 
 ### Author
 Denis Tsoi
