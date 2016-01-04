@@ -11,7 +11,7 @@ var fs = require('fs');
 // push styles 
 if (process.env.PUSH) {
   sass.render({
-    file: '_scss/main.scss',
+    file: 'css/main.scss',
   }, function(error, result) { // node-style callback from v3.0.0 onwards
     if (error) console.log(error);
     if(!error){
@@ -26,7 +26,7 @@ if (process.env.PUSH) {
   });
 } else {
   express()
-    .use(quesadilla(__dirname + '/_scss'))
+    .use(quesadilla(__dirname + '/css'))
     .use(express.static(__dirname))
     .listen(port, function() {
       console.log('Server is listening on port', port);
