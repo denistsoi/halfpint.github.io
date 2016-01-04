@@ -264,7 +264,6 @@ pre {
   list-style: none; }
 
 .post-meta {
-  font-size: 21px;
   color: #828282; }
 
 .post-link {
@@ -289,12 +288,42 @@ body {
   margin-bottom: 30px; }
   body h1 {
     font-size: 2em; }
+    @media screen and (max-width: 800px) {
+      body h1 {
+        font-size: 1.8em; } }
+    @media screen and (max-width: 320px) {
+      body h1 {
+        font-size: 1.5em; } }
   body h2 {
     font-size: 1.5em; }
+    @media screen and (max-width: 800px) {
+      body h2 {
+        font-size: 1.2em; } }
+    @media screen and (max-width: 320px) {
+      body h2 {
+        font-size: 1em; } }
   body h3 {
     font-size: 1.25em; }
+    @media screen and (max-width: 800px) {
+      body h3 {
+        font-size: 1.1em; } }
+    @media screen and (max-width: 320px) {
+      body h3 {
+        font-size: 1em; } }
   body h4 {
     font-size: 1em; }
+    @media screen and (max-width: 800px) {
+      body h4 {
+        font-size: 1em; } }
+    @media screen and (max-width: 320px) {
+      body h4 {
+        font-size: .8em; } }
+  @media screen and (max-width: 800px) {
+    body p, body span {
+      font-size: 1em; } }
+  @media screen and (max-width: 320px) {
+    body p, body span {
+      font-size: .8em; } }
 
 .post-list li a {
   margin-bottom: 30px; }

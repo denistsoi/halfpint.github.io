@@ -145,7 +145,7 @@
 }
 
 .post-meta {
-  font-size: $small-font-size;
+  // font-size: $small-font-size;
   color: $grey-color;
 }
 
@@ -177,15 +177,27 @@ body {
   margin-bottom: $spacing-unit/2;
   h1 {
     font-size: 2em;
+    @include media-query($on-laptop) { font-size: 1.8em }
+    @include media-query($on-smallphone) { font-size: 1.5em }
   }
   h2 {
     font-size: 1.5em; 
+    @include media-query($on-laptop) { font-size: 1.2em }
+    @include media-query($on-smallphone) { font-size: 1em }
   }
   h3 {
     font-size: 1.25em;
+    @include media-query($on-laptop) { font-size: 1.1em }
+    @include media-query($on-smallphone) { font-size: 1em }
   }
   h4 {
     font-size: 1em;
+    @include media-query($on-laptop) { font-size: 1em }
+    @include media-query($on-smallphone) { font-size: .8em }
+  }
+  p, span {
+    @include media-query($on-laptop) { font-size: 1em }
+    @include media-query($on-smallphone) { font-size: .8em }
   }
 }
 
