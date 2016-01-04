@@ -120,12 +120,30 @@ a {
 .post-link {
   color: $grey-color-dark;
   padding: 15px;
+  img {
+    border: 1px solid transparent;
+  }
+  // .tooltip {
+  //   display: none;
+  // }
+
   &:hover {
     color: $text-color;
     background: darken($hover-color, 10%);
+    .tooltip {
+      display: inline-block;
+      @include media-query(960px) {
+        position: relative;
+        left: initial;
+        color: darken($background-color, 5%);
+      }
+    }
     h2 {
       text-decoration: underline;  
       color: darken($background-color, 5%);
+    }
+    img {
+      border: 1px solid $grey-color-light;
     }
     .post-meta {
       color: darken($background-color, 5%);
