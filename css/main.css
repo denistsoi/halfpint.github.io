@@ -328,6 +328,12 @@ body {
 .post-list li a {
   margin-bottom: 30px; }
 
+.post-list li a {
+  border-bottom: 1px solid #111; }
+
+.post-list li:last-child a {
+  border-bottom: none; }
+
 .page-list {
   list-style: none;
   margin-left: 0; }
@@ -341,5 +347,6 @@ body {
     background: #2180bf;
     color: #f0f0f0; }
 
-.divider h2 {
-  border-bottom: 1px solid #111; }
+.divider h3 {
+  color: #828282;
+  border-bottom: 1px solid #e8e8e8; }
