@@ -117,14 +117,12 @@ a {
   }  
 }
 
-
 .post-link {
   color: $grey-color-dark;
   padding: 15px;
   &:hover {
     color: $text-color;
     background: darken($hover-color, 10%);
-    // background: lighten(orange, 15%);
     h2 {
       text-decoration: underline;  
       color: darken($background-color, 5%);
@@ -136,6 +134,15 @@ a {
      color: darken($background-color, 6%); 
     }
   }
+}
+
+.project .post-link:hover {
+  background: $secondary-hover-color;
+  // background: darken($secondary-hover-color, 5%);
+}
+
+.talk .post-link:hover {
+  background: darken($tertiary-hover-color, 10%);
 }
 
 .about-me {

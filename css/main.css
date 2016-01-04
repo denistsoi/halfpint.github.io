@@ -99,6 +99,12 @@ a {
     .post-link:hover div {
       color: #eeeeee; }
 
+.project .post-link:hover {
+  background: #913D88; }
+
+.talk .post-link:hover {
+  background: #798d8f; }
+
 .about-me {
   font-size: 24px; }
 
@@ -305,3 +311,6 @@ body {
   .page-list a {
     background: #2180bf;
     color: #f0f0f0; }
+
+.divider h2 {
+  border-bottom: 1px solid #111; }
