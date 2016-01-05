@@ -372,3 +372,10 @@ body {
 .divider h3 {
   color: #828282;
   border-bottom: 1px solid #e8e8e8; }
+
+.profile-pic img {
+  margin: 30px auto;
+  height: 300px;
+  width: 300px;
+  display: block;
+  border-radius: 50%; }

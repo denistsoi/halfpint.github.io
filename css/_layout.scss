@@ -251,3 +251,11 @@ body {
   color: $grey-color;
   border-bottom: 1px solid $grey-color-light;
 }
+
+.profile-pic img {
+  margin: 30px auto;
+  height: 300px;
+  width: 300px;
+  display: block;
+  border-radius: 50%;
+}
