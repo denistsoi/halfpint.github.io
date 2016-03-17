@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "push": "PUSH=true node index.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,10 +16,18 @@
   "bugs": {
     "url": "https://github.com/denistsoi/denistsoi.github.io/issues"
   },
+  "browserify": {
+    "transform": [
+      "html2js-browserify"
+    ]
+  },
   "homepage": "https://github.com/denistsoi/denistsoi.github.io",
   "dependencies": {
+    "enchilada": "^0.13.0",
     "express": "^4.13.3",
-    "node-sass": "^3.4.2",
-    "quesadilla": "^2.0.0"
+    "html2js-browserify": "^1.1.0",
+    "quesadilla": "^2.0.0",
+    "vue": "^1.0.17",
+    "vue-router": "^0.7.11"
   }
 }

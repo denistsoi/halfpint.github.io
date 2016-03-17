@@ -1,0 +1,14 @@
+<li class="talks" v-for="talk in talks">
+  <a class="post-link" target="_blank" href="{{ talk.link }}">
+    <span class="post-meta">{{ talk.meta }}</span>
+    <span class="tooltip">Talk</span>
+    <h2>{{ talk.title }}</h2>
+    <div>
+      <div v-if="talk.picture">
+        <img :src="talk.picture">
+      </div>
+      <h3>{{ talk.summary }}</h3>
+      <p>{{  talk.description }}</p>
+    </div>
+  </a>
+</li>

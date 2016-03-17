@@ -1,0 +1,15 @@
+<li class="jobs" v-for="job in jobs">
+  <a class="post-link" target="_blank" href="{{ job.link }}">
+    <span class="post-meta">{{ job.meta }}</span>
+    <span class="tooltip">Job</span>
+    <h2>{{ job.title }}</h2>
+    <div>
+      <div v-if="job.picture">
+        <img :src="job.picture">
+      </div>
+      <h3>{{ job.summary }}</h3>
+      <p>{{ job.description }}</p>
+      <p v-if="job.detail">{{ job.detail }}</p>
+    </div>
+  </a>
+</li>

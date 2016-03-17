@@ -267,3 +267,19 @@ pre {
     }
   }
 }
+
+
+
+.contact-me {
+  text-align: center;
+  position: relative;
+  margin: 0 auto 40px auto;
+  .typeform-share.button {
+    display: block;
+    padding: 20px 0;
+    background: #e7e7e7;
+    &:hover {
+      background: #d4d4d4;
+    }
+  }
+}
